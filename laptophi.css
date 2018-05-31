@@ -1,0 +1,374 @@
+/* AUTHOR - RANDHAWA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: #000016;
+    overflow: auto;
+}
+.customize {
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+}
+.box {
+    margin-top: 1.5%;
+    display: inline-block;
+    height: auto;
+    border: .3px solid rgb(0, 162, 255);
+    padding: 15px;
+    position: relative;
+}
+.title {
+    font-family: 'Montserrat',sans-serif;
+    display: block;
+    font-size: 22px;
+}
+.enter {
+    border: none;
+    padding: 3px 6px;
+    border-bottom: .2px solid #000016;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+    display: block;
+    outline: none;
+}
+.or {
+    font-size: 18px;
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.or::before,
+.or::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.or::before {
+    right: 0.5em;
+    margin-left: 0;
+}
+
+.or::after {
+    left: 0.5em;
+    margin-right: 11.5%;
+}
+.select {
+    font-family:'Montserrat',sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 15%;
+}
+.colorchoice {
+    position: relative;
+    left: 17%;
+    width: 60px;
+    height: 25px;
+}
+
+
+.fontcolor{
+    border:none;
+    position: relative;
+    top: 5%;
+    margin: 20px 5px;
+    left: 5.5%;
+}
+
+.bgcolor{
+    border-top:none;
+    border-right:none;
+    border-bottom: none;
+    position: relative;
+    top: 5%;
+    left: 4.5%;
+    margin: 20px 5px;
+}
+
+.fontsize{
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+    position: relative;
+    top: 5%;
+    margin: 20px 5px;
+    left: 4%;
+}
+
+.fonttype{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    margin: 20px 5px;
+    top: 5%;
+    left: 3.9%;
+}
+.settings {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    transition: all 1.5s ease-in-out;
+    height: 2%;
+    width: 100%;
+}
+.hbb {
+    background: #fff;
+    color: #000016;
+    padding: 7px 9px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 26px;
+    outline:none;
+    border:none;
+    transition: all 1.5s ease-in-out;
+}
+.hbb:hover {
+    background: #000016;
+    color: #fff;
+    cursor: pointer;
+}
+.d {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+    width: 130px;
+    top: -2px;
+    outline: none;
+}
+.swd {
+    position: absolute;
+    left: 28px;
+    
+} 
+.cbd {
+    text-align: center;
+}
+.closeButton {
+  background: #fff;
+  color: #000016;
+  outline: none;
+  padding: 4px 8px;
+  margin: 10px;
+  border:none;
+  border-radius: 4px;
+  font-size: 22px;
+  transition: all 0.6s ease-in-out;
+  
+}
+.closeButton:hover {
+   background: #000016;
+   color: #fff;
+   cursor: pointer;
+}
+.path {
+    color: #fff;
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+    font-size: 2.2vw;
+    font-family: 'Mukta Mahee';
+    word-spacing: 17px;
+    background: #000016;
+    padding: 8px;
+}
+.paging {
+    padding: 4px 8px;
+    border:none;
+    outline:none;
+    background: #fff;
+    color: #000016;
+    font-size: 1.9rem;
+    opacity: 1;
+    border-radius:50%;
+    transition: all .5s ease-in-out; 
+}
+.paging:hover {
+    color: #fff;
+    background-color: #000016;
+    cursor: pointer;
+}
+#pageNext {
+    position: fixed;
+    top: 62%;
+    left: 76.5%;
+}
+#pagePrevious {
+    position: fixed;
+    top: 62%;
+    left: 19.5%;
+}
+.main {
+    position: relative;
+}
+.selection {
+    cursor: pointer; 
+}
+#select {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.selection {
+    background-color: #fff;
+    color: #000016;
+    padding: 4px;
+    width: 202px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 4px;
+    opacity: 1;
+}
+#theme1 {
+    font-family: 'Montserrat',sans-serif;
+    outline: none;
+    width: 5.5em;
+    font-size: 1.6em;
+}
+#themetoggle {
+    position: relative;
+    top: -47px;
+    width: 20em;
+    left: 24.3vw;
+}
+#fontSize1{
+    position: relative;
+    top: -88.8px;
+    width: 25.9em;
+    left: 55vw;
+}
+.s {
+    position: relative;
+    font-family: 'Montserrat',sans-serif;
+    outline: none;
+    font-size: 1.7em;
+}
+.selection:hover {
+    background: #000016;
+    color: #fff;
+    cursor: pointer;
+}
+.bars {
+    color: #000016;
+    width: 200px;
+    height:100%;
+    transition: all 0.9s ease-in-out;
+}
+#leftbar {
+    background-color: rgb(47, 118, 158);
+    position: fixed;
+    left: -200px;
+    width: 200px;
+    top: 0;
+    z-index: 1;
+}
+#rightbar {
+    background: rgba(197, 50, 50, 0.884);;
+     position: fixed;
+     top: 0;
+     width: 200px;
+     right: -200px;
+     z-index: 1;
+}
+
+.cursor {
+    cursor: pointer;
+}
+.bars ul li{
+   font-family: 'Montserrat',sans-serif;
+    list-style-type: none;
+    font-size: 1.8em;
+    padding: 20px 25px ;
+    border-bottom: 1px solid #000016;
+    transition: all 0.6s ease-in-out;
+}
+#leftbar .cursor {
+    position: absolute;
+    left: 209px;
+    top: 2px;
+}
+#rightbar .cursor {
+    position: absolute;
+    right: 209px;
+    top: 2px;
+}
+.bars span {
+    margin: 9px 0px;
+    display: block;
+    width: 47px;
+    height: 5px;
+}
+#leftbar  span {
+    background: rgb(0, 162, 255);
+}
+#leftbar a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color: #000016;
+}
+#leftbar li:hover{
+    background-color: #fff;
+}
+#rightbar  span {
+    background: rgba(197, 50, 50, 0.884);
+}
+#rightbar a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color: #000016;
+}
+#rightbar li:hover{
+    background-color: #fff;
+}
+#closeLeftBar {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    border:none;
+    outline:none;
+    font-size: 12px;
+    background: transparent;
+    color:#000016;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 4px 8px;
+    border-radius: 2px;
+    
+}
+#closeLeftBar:hover {
+    background: #000016;
+    color:rgb(47, 118, 158);
+
+}
+#closeRightBar {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    border:none;
+    outline:none;
+    font-size: 12px;
+    background: transparent;
+    color:#000016;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+#closeRightBar:hover {
+    background: #000016;
+    color: rgba(197, 50, 50, 0.884);;
+}
+#openButton {
+  transition: all 1.5s ease-in-out;
+}

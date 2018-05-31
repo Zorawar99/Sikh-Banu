@@ -1,0 +1,373 @@
+/* AUTHOR - RANDHAWA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: #000016;
+    /* overflow: hidden; */
+}
+.customize {
+    background-color: #fff;
+    max-height: 0;
+    overflow: auto;
+}
+.box {
+    margin-top: 1.5%;
+    display: inline-block;
+    height: auto;
+    border: 0.1px solid rgb(0, 162, 255);
+    padding: 15px;
+    position: relative;
+}
+.title {
+    font-family: 'Montserrat',sans-serif;
+    display: block;
+    font-size: 14px;
+}
+.enter {
+    border: none;
+    padding: 5px 2px;
+    border-bottom: .2px solid #000016;
+    font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
+    display: block;
+    outline: none;
+}
+.or {
+    font-size: 9px;
+    display: block;
+    font-family: 'Montserrat',sans-serif;
+    margin: 9px 0;
+    text-align: center;
+}
+
+.or::before,
+.or::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.or::before {
+    right: 0.5em;
+    margin-left: 0;
+}
+
+.or::after {
+    left: 0.5em;
+    margin-right: 11.5%;
+}
+.select {
+    font-family:'Montserrat',sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 15%;
+}
+.colorchoice {
+    position: relative;
+    left: 17%;
+    width: 40px;
+    height: 20px;
+}
+
+
+.fontcolor{
+    border:none;
+    position: relative;
+    top: 5%;
+    margin: 20px 5px;
+    left: 5.6%;
+}
+
+.bgcolor{
+    border-top:none;
+    border-right:none;
+    border-bottom: none;
+    position: relative;
+    top: 5%;
+    left: 4%;
+    margin: 20px 5px;
+}
+
+.fontsize{
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+    position: relative;
+    top: 5%;
+    margin: 20px 5px;
+    left: 2.3%;
+}
+
+.fonttype{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    margin: 20px 5px;
+    top: 5%;
+    left: 0.8%;
+}
+.settings {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    transition: all 1.5s ease-in-out;
+    height: 2%;
+    width: 100%;
+}
+.hbb {
+    background: #fff;
+    color: #000016;
+    padding: 4px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    outline:none;
+    border:none;
+    transition: all 1.5s ease-in-out;
+}
+.hbb:hover {
+    background: #000016;
+    color: #fff;
+    cursor: pointer;
+}
+.d {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    position: relative;
+    left: 40px;
+    width: 80px;
+    top: -2px;
+    outline: none;
+}
+.swd {
+    position: absolute;
+    left: 16px;
+    
+} 
+.cbd {
+    text-align: center;
+}
+.closeButton {
+  background: #fff;
+  color: #000016;
+  outline: none;
+  padding: 2px 4px;
+  margin: 10px;
+  border:none;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.6s ease-in-out;
+  
+}
+.closeButton:hover {
+   background: #000016;
+   color: #fff;
+   cursor: pointer;
+}
+.path {
+    color: #fff;
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: 'Mukta Mahee';
+    word-spacing: 9px;
+    background: #000016;
+    padding: 8px;
+}
+.paging {
+    padding: 2px 4px;
+    border:none;
+    outline:none;
+    background: #fff;
+    color: #000016;
+    font-size: 1.5rem;
+    opacity: 1;
+    border-radius:50%;
+    transition: all .5s ease-in-out; 
+}
+.paging:hover {
+    color: #fff;
+    background-color: #000016;
+    cursor: pointer;
+}
+#pageNext {
+    position: fixed;
+    top: 63%;
+    left: 76.5%;
+}
+#pagePrevious {
+    position: fixed;
+    top: 63%;
+    left: 18.5%;
+}
+.main {
+    position: relative;
+}
+.selection {
+    cursor: pointer; 
+}
+#select {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.selection {
+    background-color: #fff;
+    color: #000016;
+    padding: 4px;
+    width: 202px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 4px;
+    opacity: 1;
+}
+#theme1 {
+    font-family: 'Montserrat',sans-serif;
+    outline: none;
+    width: 7.5em;
+    font-size: 0.9em;
+}
+#themetoggle {
+    position: relative;
+    top: -30px;
+    width: 13em;
+    left: 14.3rem;
+}
+#fontSize1{
+    position: relative;
+    top: -57.9px;
+    width: 15.5em;
+    left: 36.1rem;
+}
+.s {
+    position: relative;
+    font-family: 'Montserrat',sans-serif;
+    outline: none;
+    font-size: 14px;
+}
+.selection:hover {
+    background: #000016;
+    color: #fff;
+    cursor: pointer;
+}
+.bars {
+    color: #000016;
+    width: 200px;
+    height:100%;
+    transition: all 0.9s ease-in-out;
+}
+#leftbar {
+    background-color: rgb(47, 118, 158);
+    position: fixed;
+    left: -200px;
+    width: 190px;
+    top: 0;
+    z-index: 1;
+}
+#rightbar {
+    background: rgba(197, 50, 50, 0.884);;
+     position: fixed;
+     top: 0;
+     width: 190px;
+     right: -200px;
+     z-index: 1;
+}
+
+.cursor {
+    cursor: pointer;
+}
+.bars ul li{
+   font-family: 'Montserrat',sans-serif;
+    list-style-type: none;
+    padding: 10px 5px ;
+    border-bottom: 1px solid #000016;
+    transition: all 0.6s ease-in-out;
+}
+#leftbar .cursor {
+    position: absolute;
+    left: 209px;
+    top: 2px;
+}
+#rightbar .cursor {
+    position: absolute;
+    right: 209px;
+    top: 2px;
+}
+.bars span {
+    margin: 6px 0px;
+    display: block;
+    width: 30px;
+    height: 2px;
+}
+#leftbar  span {
+    background: rgb(0, 162, 255);
+}
+#leftbar a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color: #000016;
+}
+#leftbar li:hover{
+    background-color: #fff;
+}
+#rightbar  span {
+    background: rgba(197, 50, 50, 0.884);
+}
+#rightbar a{
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+    color: #000016;
+}
+#rightbar li:hover{
+    background-color: #fff;
+}
+#closeLeftBar {
+    position: absolute;
+    right: 6px;
+    top: 2px;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    background: transparent;
+    color:#000016;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 1px 2px;
+    border-radius: 2px;
+    
+}
+#closeLeftBar:hover {
+    background: #000016;
+    color:rgb(47, 118, 158);
+
+}
+#closeRightBar {
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    background: transparent;
+    color:#000016;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 1px 2px;
+    border-radius: 2px;
+}
+#closeRightBar:hover {
+    background: #000016;
+    color: rgba(197, 50, 50, 0.884);;
+}
+#openButton {
+  transition: all 1.5s ease-in-out;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:500&amp;subset=gurmukhi" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Save Punjabi Culture</title>
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Mukta+Mahee" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\HP\Downloads\SHAREit\PRA-LA1\Documents\Sikh Bani\css\style.css" >
+        <!-- <link rel="stylesheet" href="D:\Sikh Bani\css\4k.css" media="screen and (max-width:1754px) and (max-height:1360px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\laptopz.css" media="screen and (max-width:1600px) and (max-height:800px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\laptopl.css" media="screen and (max-width:1440px) and (max-height:1133px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\laptophi.css" media="screen and (max-width:1440px) and (max-height:900px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\laptop100.css" media="screen and (max-width:1024px) and (max-height:906px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\laptop.css" media="screen and (max-width:877px) and (max-height:680px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\tablet.css" media="screen and (max-width:768px) and (max-height:680px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\mobilel.css" media="screen and (max-width:425px) and (max-height:1024px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\mobilem.css" media="screen and (max-width:375px) and (max-height:1024px)">
+        <link rel="stylesheet" href="D:\Sikh Bani\css\mobiles.css" media="screen and (max-width:320px) and (max-height:1024px)"> -->
+      </head>
+      <body>
+        <header>
+          <p>Read Bani Online</p>
+      </header>
+        <nav>
+            <ul>
+                <li >
+                  <a style="padding-left: 26px;"href="home.html">Home</a>
+                 </li>
+                 <li>
+                   <a href="dailyhukamnama.html">Daily Hukamnama</a>
+                   </li>
+                 <li>
+                   <a href="banis.html">Read Bani</a>
+                 </li>
+                 <li>
+                  <a href="sakhis.html">Read Sahkis</a>
+                 </li>
+                 <li>
+                    <a href="gurudwara.html">Gurudwaras</a>
+                   </li>
+                   <li>
+                       <a href="virtual.html">Virtual Tour</a>
+                     </li>
+                    
+                     <li  style="float:right;">
+                    <a style="padding-right: 26px;"href="about.html">About us</a>
+                     </li> 
+               </ul>
+        </nav>
+               <div id="leftbar" class="bars">
+                 <div class="cursor" id="ham" onclick="openLeftBar();fadeLeftHam()">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                  </div>
+                  <button id="closeLeftBar" class="close" onclick="closeLeftBar();bringLeftHamBack()">&#128500</button>
+                  <ul>
+                 <li>
+                   <a href="home.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="dailyhukamnama.html">Daily Hukamnama</a>
+                    </li>
+                  <li>
+                    <a href="banis.html">Read Bani</a>
+                  </li>
+                  <li>
+                   <a href="sakhis.html">Read Sahkis</a>
+                  </li>
+                  <li>
+                     <a href="gurudwara.html">Gurudwaras</a>
+                    </li>
+                    <li>
+                        <a href="virtual.html">Virtual Tour</a>
+                      </li>
+                     
+                      <li>
+                     <a href="about.html">About us</a>
+                      </li> 
+                </ul>
+              </div>
+              
+              <div class="slider">
+                <button id="leftbutton" onclick="moveleft()"><--</button>
+                <div class="slides" id="1">
+                  <p class="smallbani">ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤੇ ਹਉਮੈ ਕਹੈ ਨਾ ਕੋਇ</p>
+                   <p class="meaning"> ਹੇ ਨਾਨਕ ! ਜੇਕਰ ਇਨਸਾਨ ਪ੍ਰਭੂ ਦੇ ਫੁਰਮਾਨ ਨੂੰ ਸਮਝ ਲਵੇ,<br/> ਤਦ ਕੋਈ ਭੀ ਹੰਕਾਰ ਨਾ ਕਰੇ | </p>
+                </div>
+                <button id="rightbutton" onclick="moveright()">--></button>
+              </div>
+          <div class="main">
+            <div class="About tile">
+                <div class="Title">About Sikhism</div>
+                  <span class="shorts first">Five ks</span>
+                  <span class="shorts second">Five beliefs</span>
+                  <span class="shorts third">Five evils</span>
+                </div>
+            <div class="Daily  tile">
+                <div class="Title">Daily Hukamnama</div>
+                  <span class="shorts first">Today</span>
+                  <span class="shorts second">Yesterday</span>
+                  <span class="shorts third">Day Before Yesterday</span>
+                </div>
+                <div class="Sakhis tile">
+                  <div class="Title">Read Sakhis</div>
+                  <span class="shorts first">Guru Nanak dev ji</span>
+                  <span class="shorts second">Guru Ram das ji </span>
+                  <span class="shorts third">Guru Gobind Singh ji</span>
+                </div>
+                <div class="Banis tile">
+                  <div class="Title">Read Banis</div>
+                  <span class="shorts first">Japji Sahib </span>
+                  <span class="shorts second">Rehras Sahib</span>
+                  <span class="shorts third">Sukhmani Sahib</span>
+                </div>
+                <div class="Gurudwaras tile">
+                    <div class="Title">Sikh Gurudwaras</div>
+                    <span class="shorts first">Hamanidar Sahib</span>
+                    <span class="shorts second">Patna Sahib</span>
+                    <span class="shorts third">Anandpur sahib</span>
+                </div>
+                <div class="Warriors tile">
+                    <div class="Title">Sikh Warriors</div>
+                    <span class="shorts first">Banda singh Bahadur</span>
+                    <span class="shorts second">Bhai Taru singh</span>
+                    <span class="shorts third">Maharaja Ranjit singh</span>
+                </div>
+                <div class="name">
+                  <span> Get Meaning Of Your Name</span>
+                    <input type="text" id="getname" placeholder="Enter Your Name">
+                  </div>
+            </div>
+           
+            <footer>
+                <div class="faboutsikhism fbox">
+                    <ul>
+                      <span class="ftitle">About Sikhism</span>
+                      <li>Five Ks</li>
+                      <li>Five Evils</li>
+                      <li>Five Virtues</li>
+                      <li>Rehat Maryada</li>
+                      <li>Sikh Beliefs</li>
+                    </ul>
+                  </div>
+              <div class="fdaily fbox">
+                <ul>
+                  <span class="ftitle">Daily Hukamnama</span>
+                  <li>Today</li>
+                  <li>Yesterday</li>
+                  <li>Day Before Yesterday</li>
+                </ul>
+              </div>
+              <div class="fsakhis fbox">
+                <ul>
+                  <span class="ftitle">Sikh Gurus</span>
+                  <li>Sri Guru Nanak Dev Ji</li>
+                  <li>Sri Guru Angad Dev Ji</li>
+                  <li>Sri Guru Amar Das Ji</li>
+                  <li>Sri Guru Ram Das Ji</li>
+                  <li>Sri Guru Arjan Dev Ji</li>
+                </ul>
+              </div>
+              <div class="fbanis fbox">
+                <ul>
+                  <span class="ftitle">Read Bani</span>
+                  <li>Mol Mantar</li>
+                  <li>Japji Sahib</li>
+                  <li>Jap Sahib</li>
+                  <li>Chupai Sahib</li>
+                  <li>Anand Sahib</li>
+                </ul>
+              </div>
+            
+             
+              <div class="faboutus fbox" style="float:right;">
+                  <ul>
+                    <span class="ftitle">About us</span>
+                    <li>Contact :</li>
+                    <li>123, ranjit nagar</li>
+                    <li>918330321</li>
+                    <li>abc@gmail.com</li>
+                    <li>Randhawa</li>
+                  </ul>
+                </div>
+            </footer>
+                        <script src="D:\Sikh Bani\js\main.js"></script>
+      </body>
+      </html>
+      

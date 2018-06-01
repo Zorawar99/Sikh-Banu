@@ -9,17 +9,6 @@
       <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Mukta+Mahee" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="D:\Documents\Sikh Bani\css\style.css" >
-      <!-- <link rel="stylesheet" href="D:\Sikh Bani\css\4k.css" media="screen and (max-width:1754px) and (max-height:1360px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\laptopz.css" media="screen and (max-width:1600px) and (max-height:800px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\laptopl.css" media="screen and (max-width:1440px) and (max-height:1133px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\laptophi.css" media="screen and (max-width:1440px) and (max-height:900px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\laptop100.css" media="screen and (max-width:1024px) and (max-height:906px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\laptop.css" media="screen and (max-width:1007px) and (max-height:680px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\tablet.css" media="screen and (max-width:768px) and (max-height:1024px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\mobilel.css" media="screen and (max-width:425px) and (max-height:1024px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\mobilem.css" media="screen and (max-width:375px) and (max-height:1024px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\mobiles.css" media="screen and (max-width:320px) and (max-height:1024px)">
-      <link rel="stylesheet" href="D:\Sikh Bani\css\mobile.css" media="screen and (max-width:320px) and (max-height:488px)"> -->
     </head>
     <body>
       <div class="customize" id="custom">
@@ -366,33 +355,45 @@
             </div>
        <div class="settings" id="openButton">
          <button class="hbb" title="Click here for Custom Settings" onclick="showCustomize();fadeButton();fadeButtons();"><i class="fa fa-angle-double-down"></i></button>
-          </div>
-          <div id="leftbar" class="bars">
-            <div class="cursor" id="ham" onclick="openLeftBar();fadeLeftHam();fadeButtons();">
-                   <span></span>
-                   <span></span>
-                   <span></span>
-                  </div>
-                  <button id="closeLeftBar" class="close" onclick="closeLeftBar();bringLeftHamBack();bringButtonsBack();">&times;</button>
-                  <ul>
-                    <li>
-                      Home
-                  </li>
-                  <li>
-                    About us
-                  </li>
-                  <li>
-                    Read Path
-                  </li>
-                  <li>
-                    Read Sahkis
-                  </li>
-                  <li>
-                    Others
-                  </li>
-                </ul>
-              </div>
-        <div class="path" id="page1">
+        </div>
+           <div id="leftbar" class="bars">
+             <div class="cursor" id="ham" onclick="openLeftBar();fadeLeftHam();fadeButtons();">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   </div>
+                   <button id="closeLeftBar" class="close" onclick="closeLeftBar();bringLeftHamBack();bringButtonsBack();">&times;</button>
+                   <ul>
+                     <li>
+                       <a href="#">Home</a>
+                   </li>
+                   <li>
+                     <a href="#">About us</a>
+                   </li>
+                   <li>
+                     <a href="#">Read Path</a>
+                   </li>
+                   <li>
+                     <a href="#">Read Sahkis</a>
+                   </li>
+                   <li>
+                     <a href="#">Others</a>
+                   </li>
+                 </ul>
+               </div>
+               <div class="forpage" id="fp">
+                 <span class="fptext">Page</span>
+                 <span class="fptext">1</span>
+                 <span class="fptext">/</span>
+                 <span class="fptext">24</span>
+                 <span class="jump">
+                   <form onsubmit="jump()">
+                   <input type="number" id="jumpnumber" min="1" max="24" placeholder="Go to Another Page" />
+                   <input type="submit" value="Go">
+                   </form>
+                 <span>
+               </div>
+        <div class="path">
           ੴ<br/> ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ <br/>ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ <br/>ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ॥<br/>
           ॥ਜਪੁ॥<br/>
           ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ॥ ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥

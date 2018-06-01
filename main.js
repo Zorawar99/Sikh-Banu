@@ -75,10 +75,19 @@ else {
 function showCustomize() {
   custom.style.transition=" all 1.5s ease-in-out";
   custom.style.maxHeight="500px";
+  document.getElementById('reset').style.display="block";
+  document.getElementById('cbd').style.display="block";
+  document.getElementById('fp').style.display="none";
+  document.getElementById('leftbar').style.display="none";
 }
+
 function closeCustomize() {
  custom.style.transition=" all 1.5s ease-in-out";
  custom.style.maxHeight="0";
+ document.getElementById('reset').style.height="0";
+ document.getElementById('cbd').style.height="0";
+ setTimeout(function(){document.getElementById('fp').style.display="block"},1500);
+ setTimeout(function(){document.getElementById('leftbar').style.display="block"},1500);
 }
 function fadeButton() {
  openButton.style.transition="all 1.5s ease-in-out";
@@ -117,7 +126,7 @@ function bringButtonsBack() {
       }
 }
 function closeLeftBar() {
- document.getElementById('leftbar').style.left="-200px";
+ document.getElementById('leftbar').style.left="-250px";
 }
 
 
@@ -136,8 +145,6 @@ function changeBgColor() {
 function styleFontColor() {                 
       var currentColor = localStorage.getItem('fontcolor');
       document.getElementById('fontColor').value = currentColor;
-      document.body.style.transition="all 1.5s ease-in-out" ;
-      document.body.style.color= currentColor ;
       for (var i=0;i<page.length;i++)
       {
             page[i].style.transition="all 1.5s ease-in-out";
@@ -186,3 +193,39 @@ function styleFontSize() {
             page[i].style.fontSize=currentSize;
       }
  }
+function reset() {
+      localStorage.setItem('bgcolor',"#000016");
+      localStorage.setItem('fonttype',"Mukta Mahee");
+      localStorage.setItem('fontcolor',"#fff");
+      localStorage.setItem('fontsize',"32px");
+      for (var i=0;i<page.length;i++)
+      {
+            page[i].style.transition="all 1.5s ease-in-out";
+            page[i].style.color="#fff";
+      }    
+      for (var i=0;i<page.length;i++)
+      {
+            page[i].style.transition="all 1.5s ease-in-out";
+            page[i].style.fontFamily='Mukta Mahee';
+      }
+      for (var i=0;i<page.length;i++)
+      {
+            page[i].style.transition="all 1.5s ease-in-out";
+            page[i].style.fontSize='32px';
+      }
+      document.body.style.transition="all 1.5s ease-in-out" ;
+      document.body.style.backgroundColor= "#000016" ;
+      openButton.style.backgroundColor="#000016";
+      for (var i=0;i<page.length;i++)
+      {
+            page[i].style.transition="all 1.5s ease-in-out";
+            page[i].style.backgroundColor="#000016";
+      }
+}
+function jump() {
+      var i=document.getElementById('jumpnumber').value;
+      var str="page";
+      str+=i;
+      location.href=str+".html";
+      event.preventDefault();
+}
